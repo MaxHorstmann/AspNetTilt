@@ -15,7 +15,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        var foo = new[] { "123", "abc", "sunshine" };
+        var foo = new[] { "a", "quick", "inner", "loop" };
         return View(foo);
     }
 
