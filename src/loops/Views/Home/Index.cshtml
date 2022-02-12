@@ -1,0 +1,12 @@
+﻿@model string[]
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome 123456</h1>
+    @foreach (var m in Model)
+    {
+        <p>@m</p> 
+    }
+</div>
