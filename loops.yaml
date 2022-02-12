@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: loops
-        image: loops-dev
+        image: loops
         ports:
         - containerPort: 80
 ---
